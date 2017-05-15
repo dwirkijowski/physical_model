@@ -42,6 +42,7 @@ function plotParaVsFreq(model,Para,unit)
     % attach plot labels, grid, legend
     xlabel([Para.name ' (' unit ')'])
     ylabel('f (Hz)')
+    % ylim([0 30])
     grid on
     hold off
     legend ('Mode 1', 'Mode 2', 'Mode 3', 'Mode 4', 'Mode 5', 'Mode 6', 'Mode 7', 'Mode 8','Location','EastOutside');

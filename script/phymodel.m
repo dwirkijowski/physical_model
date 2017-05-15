@@ -1,4 +1,4 @@
-function phymodel(modeltype)
+function phymodel(modeltype, modes)
 %% Model Sensitivity Study
 %
 %
@@ -12,7 +12,6 @@ plotname = filename(1:end-4);
 
 %% setup nfa info
 NFAnmodes = 12; % set number of modes to compute
-modes = [1:8]; % apriori modes chosen for pairing
 
 %% setup property info
 propNum = 1;
